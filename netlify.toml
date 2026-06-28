@@ -1,0 +1,8 @@
+[build]
+  base = "frontend"
+  command = "npm ci && npx vite build"
+  publish = "frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  VITE_API_URL = "https://tickoff.onrender.com/api"
