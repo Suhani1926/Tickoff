@@ -1,5 +1,5 @@
 {
-  "name": "tickoff-backend",
+  "name": "tickoff-frontend",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -11,10 +11,9 @@
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "vite": "^5.0.6",
+    "@vitejs/plugin-react": "^4.2.0"
   },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.6"
-  }
+  "devDependencies": {}
 }
